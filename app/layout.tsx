@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./ui/globals.scss";
+import "./ui/global.scss";
 
 export const metadata: Metadata = {
   title: "CIS | Home",
