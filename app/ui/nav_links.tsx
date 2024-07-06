@@ -15,7 +15,7 @@ const links = [
   { name: "Contact Us", href: "/contact" },
 ];
 
-export default function navLinks() {
+export default function NavLinks() {
   const pathname = usePathname();
   return (
     <div className="container mx-auto my-4 flex justify-between">
