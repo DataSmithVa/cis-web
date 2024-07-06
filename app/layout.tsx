@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import "./ui/global.scss";
+import NavLinks from "./ui/nav_links";
 
 export const metadata: Metadata = {
-  title: "CIS | Home",
+  title: {
+    template: "CIS | %s",
+    default: "CIS | Home",
+  },
   description: "Communications Installation Solution",
 };
 
@@ -13,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavLinks />
+        {children}
+      </body>
     </html>
   );
 }
