@@ -17,9 +17,9 @@ const links = [
 ];
 
 // Open hamburger menu
-const openMenu = (e) => {
-  console.log("open menu fired");
-};
+// const openMenu = (e) => {
+//   console.log("open menu fired");
+// };
 
 export default function NavLinks() {
   const pathname = usePathname();
@@ -61,7 +61,7 @@ export default function NavLinks() {
           src={menu}
           alt="Hamburger Menu"
           className="h-10 w-auto md:hidden"
-          onClick={openMenu}
+          // onClick={openMenu}
         />
       </div>
     </div>
