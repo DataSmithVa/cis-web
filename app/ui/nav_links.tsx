@@ -5,8 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { ContactButton } from "./buttons";
-import logo from "@/public/CIS_LOGO.svg";
-import menu from "@/public/menu.svg";
+import logo from "@/public/svg/CIS_LOGO.svg";
+import menu from "@/public/svg/menu.svg";
 
 // Array of links to display in the navigation.
 const links = [
@@ -24,7 +24,7 @@ const links = [
 export default function NavLinks() {
   const pathname = usePathname();
   return (
-    <div className="container mx-4 my-8 flex justify-between p-4 md:mx-auto">
+    <div className="container my-8 flex justify-between overflow-hidden px-8 md:mx-auto">
       <Image src={logo} alt="Logo" className="h-12 w-auto" priority />
       <div className="mr-8 grid grid-flow-col items-center gap-4 text-center">
         {links.map((link) => {

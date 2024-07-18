@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/public/CIS_LOGO.svg";
+import logo from "@/public/svg/CIS_LOGO.svg";
 
 export default function UnderMaint() {
   return (
