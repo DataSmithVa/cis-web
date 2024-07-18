@@ -6,21 +6,33 @@ This is the codebase for CIS website project. The goal of this project is to giv
 
 > NextJS  
 > TypeScript  
-> Sass  
 > NodeJS  
 > MongoDB
+> Tailwind
+> Sass
 
 #### Goals
 
 - [x] Create "Under Maintenence" fallback page
 - [x] Start NextJS app config
 - [x] Create "Under Maintenence" and 404 fallbacks for NextJS app
-- [ ] Configure NodeJS server on Namecheap
-- [ ] Configure Git repo for auto deploy in Namecheap.
-- [ ] Deploy Main branch to namecheap to replace original temp page
-- [ ] Checkout Dev branch to continue developing
-- [ ] Get static pages complete to establish the website
+- [x] Checkout Dev branch to continue developing
+- [ ] Build Landing page
+- [ ] Testing
 - [ ] Push and Review
 - [ ] Merge and Deploy
-- [ ] Checkout Dev branch to continue developing
-- [ ] Add Contact Us form
+- [ ] Continue developing on Dev Branch
+- [ ] Build Services page
+- [ ] Testing
+- [ ] Push and Review
+- [ ] Merge and Deploy
+- [ ] Continue developing on Dev Branch
+- [ ] Build About Us page
+- [ ] Testing
+- [ ] Push and Review
+- [ ] Merge and Deploy
+- [ ] Continue developing on Dev Branch
+- [ ] Build Contact method and form
+- [ ] Testing
+- [ ] Push and Review
+- [ ] Merge and Deploy
