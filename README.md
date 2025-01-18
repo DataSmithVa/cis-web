@@ -15,9 +15,9 @@ This is the codebase for CIS website project. The goal of this project is to giv
 - [x] Create "Under Maintenence" fallback page
 - [x] Start NextJS app config
 - [x] Create "Under Maintenence" and 404 fallbacks for NextJS app
-- [ ] Configure NodeJS server on Namecheap
-- [ ] Configure Git repo for auto deploy in Namecheap.
-- [ ] Deploy Main branch to namecheap to replace original temp page
+- [x] Configure NodeJS server on Namecheap
+- [x] Configure Git repo for auto deploy in Namecheap.
+- [x] Deploy Main branch to namecheap to replace original temp page
 - [ ] Checkout Dev branch to continue developing
 - [ ] Get static pages complete to establish the website
 - [ ] Push and Review
